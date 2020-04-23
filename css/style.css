@@ -1,0 +1,149 @@
+@import url("grid.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    background-color: #57be6b;
+}
+
+.logo {
+    height: 100px;
+    flex: content;
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+    align-items: center;
+}
+
+.menu-list {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: content;
+}
+
+.button-menu {
+    color: #57be6b;
+    background-color: white;
+    padding: 10px;
+    border: 0;
+    margin: 5px 50px;
+    border-radius: 10px;
+}
+
+.slider {
+    margin-top: 120px;
+    max-width: 100%;
+}
+
+
+.none {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.card img{
+    width: 40%;
+}
+
+.rev img{
+    width: 50%;
+}
+
+.rev {
+    text-align: center;
+}
+
+.text {
+     margin: 0 auto;
+     font-style: italic;
+     vertical-align: middle;
+}
+
+.reviews {
+    border: 5px solid #57be6b;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.question {
+    margin: 50px auto;
+}
+
+.button_question {
+    margin-top: 30px;
+    background-color: #57be6b;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 100px;
+    background-color: #57be6b;
+}
+
+.foot img{
+    width: 50px;
+}
+
+.foot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #478E98;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2 {
+    color: #F87C72;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto;
+}
